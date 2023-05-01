@@ -1,0 +1,99 @@
+<html>
+<head>
+<title> Pyramids Pharmace | Home </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="item">
+<a href="home.html">
+<img src="images/logo.jpg" height="100px" width="200px" class="fade-in-text">
+</a>
+</div>
+<div id="name">
+<h2 class="fade-in-text"> Mariam Sleim's Project </h2>
+</div>
+<hr>
+<div class="gallery">
+  <a target="_blank" href="images/1.jpg">
+    <img src="images/1.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">HIBIOTIC</div>
+  <center> <button class="button" role="button" onclick="this.disabled=true;  myFunction()">Buy Now !</button> </center>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/2.jpg">
+    <img src="images/2.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">AUGMENTIN</div>
+  <center> <button class="button" role="button" onclick="this.disabled=true;  myFunction()">Buy Now !</button> </center>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/3.jpg">
+    <img src="images/3.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">COMETREX</div>
+  <center> <button class="button" role="button" onclick="this.disabled=true;  myFunction()">Buy Now !</button> </center>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/4.jpg">
+    <img src="images/4.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">FACECARE</div>
+  <center> <button class="button" role="button" onclick="this.disabled=true;  myFunction()">Buy Now !</button> </center>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/5.jpg">
+    <img src="images/5.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">CERAVE</div>
+  <center> <button class="button" role="button" onclick="this.disabled=true;  myFunction()">Buy Now !</button> </center>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/6.jpg">
+    <img src="images/6.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">ORDINARY</div>
+  <center> <button class="button" role="button" onclick="this.disabled=true;  myFunction()">Buy Now !</button> </center>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/7.jpg">
+    <img src="images/7.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">LISTERINE</div>
+  <center> <button class="button" role="button" onclick="this.disabled=true;  myFunction()">Buy Now !</button> </center>
+</div>
+<div class="formdiv">
+<h3> Contact Us </h3>
+  <form action="">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="city">City</label>
+    <select id="city" name="city">
+      <option value="tanta">Tanta</option>
+      <option value="Cairo">Cairo</option>
+      <option value="mansoura">Mansoura</option>
+	  <option value="mahala">Al-Mahala Al-Kobra</option>
+	  <option value="santa">Al-Santa</option>
+	  <option value="alex">Alexandria</option>
+    </select>
+  
+    <input type="submit" value="Submit" onclick="myFunction()">
+  </form>
+</div>
+<script>
+function myFunction() {
+  alert("Your request has been sent !");
+}
+</script>
+</body>
+</html>
